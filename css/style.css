@@ -1,0 +1,54 @@
+body {
+  overflow: hidden;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  flex: 0 0 50px;
+  background-color: blue;
+  overflow: auto;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.main {
+  flex: 1 1 80%;
+  display: flex;
+  max-height: 80%;
+}
+
+.main__body {
+  display: flex;
+}
+
+.main__sideBar {
+  background-color: green;
+  flex: 0 0 200px;
+  overflow: auto;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.main__rightPanel {
+  background-color: bisque;
+  flex: 1 1 auto;
+  overflow: auto;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer {
+  flex: 0 0 100px;
+  background-color: #186297;
+  overflow: auto;
+  display: flex;
+  justify-content: flex-start;
+}
